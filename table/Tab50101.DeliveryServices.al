@@ -1,5 +1,6 @@
 /// <summary>
 /// Table Delivery Services (ID 50101).
+/// Sanka 2022/10/05
 /// </summary>
 table 50101 "Delivery Services"
 {
