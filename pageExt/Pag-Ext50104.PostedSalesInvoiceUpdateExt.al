@@ -11,7 +11,7 @@ pageextension 50104 PostedSalesInvoiceUpdateExt extends "Posted Sales Inv. - Upd
             field("External Document No."; Rec."External Document No.")
             {
                 ApplicationArea = all;
-                ToolTip = 'Specifies External Document number!';
+                ToolTip = 'Specifies the External Document number!';
                 Visible = true;
                 Editable = true;
             }
