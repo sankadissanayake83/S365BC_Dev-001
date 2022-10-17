@@ -1,7 +1,7 @@
 /// <summary>
-/// TableExtension SkSalesHeaderExtension (ID 50100) extends Record Sales Header.
+/// TableExtension SalesHeaderExt (ID 50100) extends Record Sales Header.
 /// </summary>
-tableextension 50100 SkSalesHeaderExtension extends "Sales Header"
+tableextension 50100 SalesHeaderExt extends "Sales Header"
 {
     fields
     {

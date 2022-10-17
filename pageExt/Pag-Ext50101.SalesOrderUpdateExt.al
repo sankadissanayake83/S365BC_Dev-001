@@ -1,8 +1,8 @@
 /// <summary>
-/// PageExtension skSalesOrderExtension (ID 50101) extends Record Sales Order.
+/// PageExtension SalesOrderUpdateExtn (ID 50101) extends Record Sales Order.
 /// </summary>
 #pragma implicitwith disable
-pageextension 50101 skSalesOrderExtension extends "Sales Order"
+pageextension 50101 SalesOrderUpdateExt extends "Sales Order"
 {
     layout
     {
