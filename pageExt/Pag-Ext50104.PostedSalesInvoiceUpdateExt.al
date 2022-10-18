@@ -12,8 +12,6 @@ pageextension 50104 PostedSalesInvoiceUpdateExt extends "Posted Sales Inv. - Upd
             {
                 ApplicationArea = all;
                 ToolTip = 'Specifies the External Document number!';
-                Visible = true;
-                Editable = true;
             }
         }
 

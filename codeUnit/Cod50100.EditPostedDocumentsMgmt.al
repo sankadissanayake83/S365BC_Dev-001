@@ -10,7 +10,7 @@ codeunit 50100 EditPostedDocumentsMgmt
     end;
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Sales Inv. Header - Edit", 'OnRunOnBeforeAssignValues', '', false, false)]
-    local procedure OnRunOnBeforeAssignValues(var SalesInvoiceHeader: Record "Sales Invoice Header"; SalesInvoiceHeaderRec: Record "Sales Invoice Header");
+    local procedure OnBeforeSalesInvHeaderModify(var SalesInvoiceHeader: Record "Sales Invoice Header"; SalesInvoiceHeaderRec: Record "Sales Invoice Header");
     begin
         SalesInvoiceHeader."External Document No." := SalesInvoiceHeaderRec."External Document No.";
     end;
